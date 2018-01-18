@@ -1,1 +1,1 @@
-elk
+记录常用logstash非内置的patterns
