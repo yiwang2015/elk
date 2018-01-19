@@ -1,0 +1,4 @@
+#Pattern nginx access log
+#design by myself
+
+NGINX_ACCESS_LOG %{COMBINEDAPACHELOG}(%{QS:x_forwarded_for})?
